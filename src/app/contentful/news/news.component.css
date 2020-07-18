@@ -1,0 +1,17 @@
+.newsArticleImage, .videoContainer {
+  max-width: 480px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsItem {
+
+  padding-bottom: 60px;
+}
+
+  .newsItem:not(:first-of-type) {
+    border-top: 1px solid #6685A3;
+    padding-top: 20px;
+  }
+

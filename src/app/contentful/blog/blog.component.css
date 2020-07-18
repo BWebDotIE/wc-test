@@ -1,0 +1,13 @@
+article {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+
+.blogImage img{
+  max-height: 400px;
+}
+
+#delete img {
+  max-height: 100px;
+}

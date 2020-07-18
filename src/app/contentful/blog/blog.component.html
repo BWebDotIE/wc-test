@@ -1,0 +1,63 @@
+<div class="pageContainer">
+
+  <article>
+
+    <div class="col-12 col-sm-12 col-md-12 offset-lg-1 col-lg-10 offset-xl-1 col-xl-10 noPadding">
+
+
+      <div class="row newsItem" *ngFor='let blog of blog'>
+
+        <div class="col-12 col-sm-12   offset-md-1 col-md-10  offset-lg-1 col-lg-10   offset-xl-2 col-xl-8">
+
+          <div *ngIf="blog.fields.articleHeading">
+            <h2>{{ blog.fields.articleHeading }}</h2>
+          </div>
+
+          <div class="justifyText" *ngIf="blog.fields.introText">
+            <div Markdown>
+              {{ blog.fields.introText }}
+            </div>
+          </div>
+
+          <br />
+
+          <div *ngIf="blog.fields.image1">
+            <div class="blogImage">
+              <img [src]='blog.fields.image1.fields.file.url'
+                   [title]=''>
+            </div>
+            <br />
+          </div>
+
+
+
+          <div class="justifyText" *ngIf="blog.fields.mainText">
+            <div Markdown id="delete">
+              {{ blog.fields.mainText }}
+            </div>
+          </div>
+
+
+
+          <div class="justifyText" *ngIf="blog.fields.video1">
+            <div class="videoContainer">
+              <video controls [poster]="blog.fields.video1.fields.file.url">
+                <source [src]="blog.fields.video1.fields.file.url" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+
+        </div>
+
+      </div><!--/nested col-->
+    </div><!--/nested row-->
+
+    <br />
+    <br />
+
+  </article>
+</div>
+
+
+

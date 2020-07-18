@@ -1,0 +1,134 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--Favicon (generated at https://realfavicongenerator.net )
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">-->
+
+<div id="entirePage" ng-controller="ScrollController">
+  <!--not given container-fluid class so that the background colour won't have padding-->
+  <!--NavBar-->
+  <div class="row justify-content-center" id="topRow">
+
+    <div class="col-8 col-sm-7 col-md-3 col-lg-3 col-xl-3" id="logoCol">
+      <a href="welcome">
+        <img id="wcLogo" src="../assets/wc_logo/WC logo Small No Background.png" />
+      </a>
+    </div>
+
+    <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 offset-md-1 offset-lg-2 offset-xl-3 noPadding centerText contactCol" id="contactCol1">
+      <!--above had class of contactCol-->
+      <a href="mailto:tms@tms.ie">
+        <span>
+          <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
+          <span class="contactText">
+            <span [innerHTML]="emailAddress"></span>
+          </span>
+        </span>
+      </a>
+    </div>
+
+   
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 noPadding centerText contactCol" id="contactCol2">
+      <!--above had class of col-sm-6-->
+      <a href="callto:0035318408388">
+        <span>
+          <i class="fa fa-phone fa-lg" aria-hidden="true"></i>&nbsp;
+          <span class="contactText">(01)&nbsp;840&nbsp;8388</span>
+        </span>
+      </a>
+    </div>
+  </div>
+
+  <div id="allContentUnderNavBar">
+
+    <!--PROJECTS
+    <div ng-controller="ChangeArrowsAccordionSectionsController">-->
+
+    <div class="row .no-gutters">
+
+      <div class="scrollmenu">
+        <!--Products-->
+        <!--<a data-toggle="collapse" href="#collapsibleProjectsDiv" aria-expanded="false" aria-controls="collapsibleProjectsDiv">-->
+
+
+        <a class="" [routerLink]=" ['/welcome']">
+          Home
+        </a>
+
+        <a class="" [routerLink]=" ['/products']">
+          Products
+          <!--<i id="productsChevron" class="fa fa-lg fa-chevron-down pull-right" aria-hidden="true"></i>-->
+          <!--Glyphs not longer supported in BS4<span id="projectsMoreLessTriangle" class="glyphicon glyphicon-menu-down" aria-hidden="false"></span>-->
+        </a>
+        <!-- </a>-->
+
+        <a class="" [routerLink]=" ['/sustainability']">
+          Sustainability
+          <!--<span id="productsMoreLessTriangle" class="glyphicon glyphicon-menu-down pull-right" aria-hidden="true"></span>-->
+        </a>
+
+        <a class="" [routerLink]=" ['/about']">
+          About
+        </a>
+        <!--<span id="productsMoreLessTriangle" class="glyphicon glyphicon-menu-down pull-right" aria-hidden="true"></span>-->
+
+        <a class="" [routerLink]=" ['/blog']">
+          Blog
+        </a>
+
+        <a class="" [routerLink]=" ['/contact']">
+          Contact
+          <!--<span id="productsMoreLessTriangle" class="glyphicon glyphicon-menu-down pull-right" aria-hidden="true"></span>-->
+        </a>
+      </div>
+
+    </div><!--/row-->
+
+    <div class="row no-gutters">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="routerContainer">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <app-footer></app-footer>
+      </div>
+    </div>
+
+
+
+    <!--Move the below to it's own component-->
+
+
+  </div>
+</div>
+
+
+
+<!--/entirePage-->
+<!-- K's version
+    <div style="text-align:center">
+  <div>
+    <nav class='navbar navbar-default'>
+      <div class='container-fluid'>
+        <a class='navbar-brand'>{{pageTitle}}</a>
+        <ul class='nav navbar-nav'>
+          <li><a [routerLink]="['/welcome']">Home From app.c. html</a></li>
+          <li><a [routerLink]="['/products']">Product List</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class='container'>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+-->
+test

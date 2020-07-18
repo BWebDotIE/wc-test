@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Wood Concepts</title>
+  <base href="/"><!--as recommended in https://angular.io/guide/router -->
+
+  <meta name="description" content="Ireland’s leading supplier of timber products to the trade. Plywood, OSB, Softwood, Joists and more for homes and commercial spaces. Call us today on 01 840 83 88." />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!--Fonts-->
+  <!--<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>-->
+  <script src="https://use.fontawesome.com/1f51e29b01.js"></script>
+
+  <!--Cookie Consent-->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#3b5998"
+          },
+          "button": {
+            "background": "#ffffff"
+          }
+        },
+        "content": {
+          "href": "/cookies-policy"
+        }
+      })
+    });
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics from https://analytics.google.com/ -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112883087-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    //gtag('config', 'UA-112883087-1'); This goes somewhere else in Angular apps
+  </script>
+
+
+</head>
+<body>
+ 
+  <style>
+    .loadingDiv {
+      text-align: center;
+      top: 50%;
+      padding: 110px 0;
+      margin: auto;
+    }
+
+    .loadingText {
+      padding: 20px;
+    }
+  </style>
+
+  <pm-root>
+    <div class="loadingDiv">
+      <div class="loadingText">Welcome to Wood Concepts</div>
+      <span class="spinner spinner-lg"></span>
+      <div class="loadingText">Loading...</div>
+    </div>
+  </pm-root>
+
+</body>
+</html>

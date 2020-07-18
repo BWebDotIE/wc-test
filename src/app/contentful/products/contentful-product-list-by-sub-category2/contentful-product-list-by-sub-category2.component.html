@@ -1,0 +1,52 @@
+<div class="row .no-gutters">
+
+  <div class="col-0 col-sm-0 col-md-3 col-lg-3 col-xl-2 noPadding">
+    <app-product-menu></app-product-menu>
+  </div>
+
+  <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 noPadding">
+
+    <div id="productThumbnailsDiv">
+
+      <div class="row no-gutters justify-content-center" id="productThumbnails">
+
+        <div class="thumbnailCol col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" *ngFor='let product of products'>
+          <div *ngIf='products && products.length'>
+
+            <a [routerLink]="['/products', product.fields.slug]">
+              <div class="thumbnail">
+                <img src="{{ product.fields.image[0].fields.file.url }}"
+                     [title]='product.productName' [alt]='product.productName'>
+              </div>
+
+              <div class="productThumbnailText">
+
+                <div class="productNameAndDesc">
+                  <div class="productName">
+
+                    {{ product.fields.productName }}
+
+                  </div>
+
+                  <div class="productDescription">
+                    {{ product.fields.productDescription }}
+                    <br />
+
+                  </div>
+                </div>
+
+              </div>
+            </a>
+            <!--
+            <div class="moreLink">
+              <a [routerLink]="['/products', product.fields.slug]">More</a>
+              <i id="productsChevron" class="fa fa-lg fa-chevron-right" aria-hidden="true"></i>
+            </div>-->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
