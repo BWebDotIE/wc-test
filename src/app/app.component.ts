@@ -3,14 +3,14 @@ import { ContentfulService } from './contentful/contentful.service';
 import { Router, NavigationEnd } from "@angular/router";  //just for Google Analytics to record every route change and sent it back to Google as a page view. For more info, see https://codeburst.io/using-google-analytics-with-angular-25c93bffaa18. In other words, NavigationEnd is used for gtag to find out the 'page' by what comes after the '/' 
 
 
+declare let gtag: Function;
+
 @Component({
     selector: 'pm-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css']
 
 })
-
-declare let gtag: Function;
 
 export class AppComponent {
     title: string = 'Wood Concepts';

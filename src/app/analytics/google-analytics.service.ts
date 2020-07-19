@@ -1,9 +1,12 @@
 import { Injectable } from '@angular/core';
 
+
+declare let gtag: Function;
+
 @Injectable({
   providedIn: 'root'
 })
-declare let gtag: Function;
+
 
 export class GoogleAnalyticsService {
 
