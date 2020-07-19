@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n\r\n<!--Favicon (generated at https://realfavicongenerator.net )\r\n<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/apple-touch-icon.png\">\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\r\n<link rel=\"manifest\" href=\"/site.webmanifest\">\r\n<link rel=\"mask-icon\" href=\"/safari-pinned-tab.svg\" color=\"#5bbad5\">\r\n<meta name=\"msapplication-TileColor\" content=\"#da532c\">\r\n<meta name=\"theme-color\" content=\"#ffffff\">-->\r\n\r\n<div id=\"entirePage\" ng-controller=\"ScrollController\">\r\n  <!--not given container-fluid class so that the background colour won't have padding-->\r\n  <!--NavBar-->\r\n  <div class=\"row justify-content-center\" id=\"topRow\">\r\n\r\n    <div class=\"col-8 col-sm-7 col-md-3 col-lg-3 col-xl-3\" id=\"logoCol\">\r\n      <a href=\"welcome\">\r\n        <img id=\"wcLogo\" src=\"../assets/wc_logo/WC logo Small No Background.png\" />\r\n      </a>\r\n    </div>\r\n\r\n    <div class=\"col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 offset-md-1 offset-lg-2 offset-xl-3 noPadding centerText contactCol\" id=\"contactCol1\">\r\n      <!--above had class of contactCol-->\r\n      <a href=\"mailto:tms@tms.ie\">\r\n        <span>\r\n          <i class=\"fa fa-envelope-o fa-lg\" aria-hidden=\"true\"></i>\r\n          <span class=\"contactText\">\r\n            <span [innerHTML]=\"emailAddress\"></span>\r\n          </span>\r\n        </span>\r\n      </a>\r\n    </div>\r\n\r\n   \r\n    <div class=\"col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 noPadding centerText contactCol\" id=\"contactCol2\">\r\n      <!--above had class of col-sm-6-->\r\n      <a href=\"callto:0035318408388\">\r\n        <span>\r\n          <i class=\"fa fa-phone fa-lg\" aria-hidden=\"true\"></i>&nbsp;\r\n          <span class=\"contactText\">(01)&nbsp;840&nbsp;8388</span>\r\n        </span>\r\n      </a>\r\n    </div>\r\n  </div>\r\n\r\n  <div id=\"allContentUnderNavBar\">\r\n\r\n    <!--PROJECTS\r\n    <div ng-controller=\"ChangeArrowsAccordionSectionsController\">-->\r\n\r\n    <div class=\"row .no-gutters\">\r\n\r\n      <div class=\"scrollmenu\">\r\n        <!--Products-->\r\n        <!--<a data-toggle=\"collapse\" href=\"#collapsibleProjectsDiv\" aria-expanded=\"false\" aria-controls=\"collapsibleProjectsDiv\">-->\r\n\r\n\r\n        <a class=\"\" [routerLink]=\" ['/welcome']\">\r\n          Home\r\n        </a>\r\n\r\n        <a class=\"\" [routerLink]=\" ['/products']\">\r\n          Products\r\n          <!--<i id=\"productsChevron\" class=\"fa fa-lg fa-chevron-down pull-right\" aria-hidden=\"true\"></i>-->\r\n          <!--Glyphs not longer supported in BS4<span id=\"projectsMoreLessTriangle\" class=\"glyphicon glyphicon-menu-down\" aria-hidden=\"false\"></span>-->\r\n        </a>\r\n        <!-- </a>-->\r\n\r\n        <a class=\"\" [routerLink]=\" ['/sustainability']\">\r\n          Sustainability\r\n          <!--<span id=\"productsMoreLessTriangle\" class=\"glyphicon glyphicon-menu-down pull-right\" aria-hidden=\"true\"></span>-->\r\n        </a>\r\n\r\n        <a class=\"\" [routerLink]=\" ['/about']\">\r\n          About\r\n        </a>\r\n        <!--<span id=\"productsMoreLessTriangle\" class=\"glyphicon glyphicon-menu-down pull-right\" aria-hidden=\"true\"></span>-->\r\n\r\n        <a class=\"\" [routerLink]=\" ['/blog']\">\r\n          Blog\r\n        </a>\r\n\r\n        <a class=\"\" [routerLink]=\" ['/contact']\">\r\n          Contact\r\n          <!--<span id=\"productsMoreLessTriangle\" class=\"glyphicon glyphicon-menu-down pull-right\" aria-hidden=\"true\"></span>-->\r\n        </a>\r\n      </div>\r\n\r\n    </div><!--/row-->\r\n\r\n    <div class=\"row no-gutters\">\r\n      <div class=\"col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12\" id=\"routerContainer\">\r\n        <router-outlet></router-outlet>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row no-gutters\">\r\n      <div class=\"col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12\">\r\n        <app-footer></app-footer>\r\n      </div>\r\n    </div>\r\n\r\n\r\n\r\n    <!--Move the below to it's own component-->\r\n\r\n\r\n  </div>\r\n</div>\r\n\r\n\r\n\r\n<!--/entirePage-->\r\n<!-- K's version\r\n    <div style=\"text-align:center\">\r\n  <div>\r\n    <nav class='navbar navbar-default'>\r\n      <div class='container-fluid'>\r\n        <a class='navbar-brand'>{{pageTitle}}</a>\r\n        <ul class='nav navbar-nav'>\r\n          <li><a [routerLink]=\"['/welcome']\">Home From app.c. html</a></li>\r\n          <li><a [routerLink]=\"['/products']\">Product List</a></li>\r\n        </ul>\r\n      </div>\r\n    </nav>\r\n    <div class='container'>\r\n      <router-outlet></router-outlet>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n-->\r\ntest\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n\r\n<!--Favicon (generated at https://realfavicongenerator.net )\r\n<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"/apple-touch-icon.png\">\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\">\r\n<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\">\r\n<link rel=\"manifest\" href=\"/site.webmanifest\">\r\n<link rel=\"mask-icon\" href=\"/safari-pinned-tab.svg\" color=\"#5bbad5\">\r\n<meta name=\"msapplication-TileColor\" content=\"#da532c\">\r\n<meta name=\"theme-color\" content=\"#ffffff\">-->\r\n\r\n<div id=\"entirePage\" ng-controller=\"ScrollController\">\r\n  <!--not given container-fluid class so that the background colour won't have padding-->\r\n  <!--NavBar-->\r\n  <div class=\"row justify-content-center\" id=\"topRow\">\r\n\r\n    <div class=\"col-8 col-sm-7 col-md-3 col-lg-3 col-xl-3\" id=\"logoCol\">\r\n      <a href=\"welcome\">\r\n        <img id=\"wcLogo\" src=\"../assets/wc_logo/WC logo Small No Background.png\" />\r\n      </a>\r\n    </div>\r\n\r\n    <div class=\"col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 offset-md-1 offset-lg-2 offset-xl-3 noPadding centerText contactCol\" id=\"contactCol1\">\r\n      <!--above had class of contactCol-->\r\n      <a href=\"mailto:tms@tms.ie\">\r\n        <span>\r\n          <i class=\"fa fa-envelope-o fa-lg\" aria-hidden=\"true\"></i>\r\n          <span class=\"contactText\">\r\n            <span [innerHTML]=\"emailAddress\"></span>\r\n          </span>\r\n        </span>\r\n      </a>\r\n    </div>\r\n\r\n   \r\n    <div class=\"col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 noPadding centerText contactCol\" id=\"contactCol2\">\r\n      <!--above had class of col-sm-6-->\r\n      <a href=\"callto:0035318408388\">\r\n        <span>\r\n          <i class=\"fa fa-phone fa-lg\" aria-hidden=\"true\"></i>&nbsp;\r\n          <span class=\"contactText\">(01)&nbsp;840&nbsp;8388</span>\r\n        </span>\r\n      </a>\r\n    </div>\r\n  </div>\r\n\r\n  <div id=\"allContentUnderNavBar\">\r\n\r\n    <!--PROJECTS\r\n    <div ng-controller=\"ChangeArrowsAccordionSectionsController\">-->\r\n\r\n    <div class=\"row .no-gutters\">\r\n\r\n      <div class=\"scrollmenu\">\r\n        <!--Products-->\r\n        <!--<a data-toggle=\"collapse\" href=\"#collapsibleProjectsDiv\" aria-expanded=\"false\" aria-controls=\"collapsibleProjectsDiv\">-->\r\n\r\n\r\n        <a class=\"\" [routerLink]=\" ['/welcome']\">\r\n          Home\r\n        </a>\r\n\r\n        <a class=\"\" [routerLink]=\" ['/products']\" (click)=\"NavMenuProductClick()\">\r\n          Products\r\n          <!--<i id=\"productsChevron\" class=\"fa fa-lg fa-chevron-down pull-right\" aria-hidden=\"true\"></i>-->\r\n          <!--Glyphs not longer supported in BS4<span id=\"projectsMoreLessTriangle\" class=\"glyphicon glyphicon-menu-down\" aria-hidden=\"false\"></span>-->\r\n        </a>\r\n        <!-- </a>-->\r\n\r\n        <a class=\"\" [routerLink]=\" ['/sustainability']\">\r\n          Sustainability\r\n          <!--<span id=\"productsMoreLessTriangle\" class=\"glyphicon glyphicon-menu-down pull-right\" aria-hidden=\"true\"></span>-->\r\n        </a>\r\n\r\n        <a class=\"\" [routerLink]=\" ['/about']\">\r\n          About\r\n        </a>\r\n        <!--<span id=\"productsMoreLessTriangle\" class=\"glyphicon glyphicon-menu-down pull-right\" aria-hidden=\"true\"></span>-->\r\n\r\n        <a class=\"\" [routerLink]=\" ['/blog']\">\r\n          Blog\r\n        </a>\r\n\r\n        <a class=\"\" [routerLink]=\" ['/contact']\">\r\n          Contact\r\n          <!--<span id=\"productsMoreLessTriangle\" class=\"glyphicon glyphicon-menu-down pull-right\" aria-hidden=\"true\"></span>-->\r\n        </a>\r\n      </div>\r\n\r\n    </div><!--/row-->\r\n\r\n    <div class=\"row no-gutters\">\r\n      <div class=\"col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12\" id=\"routerContainer\">\r\n        <router-outlet></router-outlet>\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"row no-gutters\">\r\n      <div class=\"col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12\">\r\n        <app-footer></app-footer>\r\n      </div>\r\n    </div>\r\n\r\n\r\n\r\n    <!--Move the below to it's own component-->\r\n\r\n\r\n  </div>\r\n</div>\r\n\r\n\r\n\r\n<!--/entirePage-->\r\n<!-- K's version\r\n    <div style=\"text-align:center\">\r\n  <div>\r\n    <nav class='navbar navbar-default'>\r\n      <div class='container-fluid'>\r\n        <a class='navbar-brand'>{{pageTitle}}</a>\r\n        <ul class='nav navbar-nav'>\r\n          <li><a [routerLink]=\"['/welcome']\">Home From app.c. html</a></li>\r\n          <li><a [routerLink]=\"['/products']\">Product List</a></li>\r\n        </ul>\r\n      </div>\r\n    </nav>\r\n    <div class='container'>\r\n      <router-outlet></router-outlet>\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n-->\r\ntest\r\n");
 
 /***/ }),
 
@@ -390,14 +390,13 @@ var core_1 = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/c
 var GoogleAnalyticsService = /** @class */ (function () {
     function GoogleAnalyticsService() {
     }
-    GoogleAnalyticsService.prototype.eventEmitter = function (eventName, eventCategory, eventAction, eventLabel, eventValue) {
+    GoogleAnalyticsService.prototype.eventEmitter = function (eventCategory, eventAction, eventLabel, eventValue) {
         if (eventLabel === void 0) { eventLabel = null; }
         if (eventValue === void 0) { eventValue = null; }
-        gtag('event', eventName, {
-            eventCategory: eventCategory,
-            eventLabel: eventLabel,
-            eventAction: eventAction,
-            eventValue: eventValue
+        gtag('event', eventAction, {
+            'event_category': eventCategory,
+            'event_label': eventLabel,
+            'value': eventValue
         });
     };
     GoogleAnalyticsService = __decorate([
@@ -451,36 +450,42 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 var contentful_service_1 = __webpack_require__(/*! ./contentful/contentful.service */ "./src/app/contentful/contentful.service.ts");
 var router_1 = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js"); //just for Google Analytics to record every route change and sent it back to Google as a page view. For more info, see https://codeburst.io/using-google-analytics-with-angular-25c93bffaa18. In other words, NavigationEnd is used for gtag to find out the 'page' by what comes after the '/' 
+var google_analytics_service_1 = __webpack_require__(/*! ./analytics/google-analytics.service */ "./src/app/analytics/google-analytics.service.ts");
 var AppComponent = /** @class */ (function () {
-    function AppComponent(ContentfulService, router //just for Google Analytics to record every route change and sent it back to Google as a page view
-    ) {
+    function AppComponent(ContentfulService, router, //just for Google Analytics to record every route change and sent it back to Google as a page view
+    googleAnalyticsService) {
         this.ContentfulService = ContentfulService;
         this.router = router;
+        this.googleAnalyticsService = googleAnalyticsService;
         this.title = 'Wood Concepts';
         this.sendEvent = function () {
             window.ga('send', 'event', {
-                eventCategory: 'eventCategory',
-                eventLabel: 'eventLabel',
                 eventAction: 'eventAction',
-                eventValue: 10
+                eventCategory: 'event_category',
+                eventLabel: 'event_label',
+                eventValue: 0
             });
         };
         this.emailAddress = ' ' + '&#116;&#109;&#115;&#64;&#116;&#109;' + '&#115;&#46;&#105;&#101';
         this.router.events.subscribe(function (event) {
             if (event instanceof router_1.NavigationEnd) {
-                gtag('config', 'AW-820291490', { 'page_path': event.urlAfterRedirects }),
-                    gtag('config', 'UA-112883087-1', { 'page_path': event.urlAfterRedirects });
+                gtag('config', 'UA-172953861-1', { 'page_path': event.urlAfterRedirects });
+                //gtag('config', 'AW-820291490', { 'page_path': event.urlAfterRedirects }),
+                //  gtag('config', 'UA-112883087-2', { 'page_path': event.urlAfterRedirects });
             }
         });
     }
+    AppComponent.prototype.NavMenuProductClick = function () {
+        this.googleAnalyticsService.eventEmitter("view_item_list", "view products", "products", 0);
+    };
     AppComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.ContentfulService.onTitleChange(function (title) { return _this.title = title; });
     };
     AppComponent.ctorParameters = function () { return [
         { type: contentful_service_1.ContentfulService },
-        { type: router_1.Router //just for Google Analytics to record every route change and sent it back to Google as a page view
-         }
+        { type: router_1.Router },
+        { type: google_analytics_service_1.GoogleAnalyticsService }
     ]; };
     AppComponent = __decorate([
         core_1.Component({
@@ -489,8 +494,8 @@ var AppComponent = /** @class */ (function () {
             styles: [__importDefault(__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")).default]
         }),
         __metadata("design:paramtypes", [contentful_service_1.ContentfulService,
-            router_1.Router //just for Google Analytics to record every route change and sent it back to Google as a page view
-        ])
+            router_1.Router,
+            google_analytics_service_1.GoogleAnalyticsService])
     ], AppComponent);
     return AppComponent;
 }());
@@ -1874,11 +1879,6 @@ var WelcomeComponent = /** @class */ (function () {
         this.googleAnalyticsService = googleAnalyticsService;
         this.pageTitle = 'Welcome';
     }
-    WelcomeComponent.prototype.userClicksProductsLinkEvent = function () {
-        this
-            .googleAnalyticsService
-            .eventEmitter("add_to_cart", "shop", "cart", "click", 10);
-    };
     WelcomeComponent.ctorParameters = function () { return [
         { type: google_analytics_service_1.GoogleAnalyticsService }
     ]; };
