@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { GoogleAnalyticsService } from '../analytics/google-analytics.service';
 
 import { CarouselComponent } from './carousel/carousel.component';
-import { AppComponent } from '../app.component';
+
 /*
 import '@clr/icons'
 import '@clr/icons/shapes/core-shapes';
@@ -18,7 +18,5 @@ export class WelcomeComponent  {
 
   constructor(public googleAnalyticsService: GoogleAnalyticsService) { }
 
-  ProductClick() {
-    this.googleAnalyticsService.eventEmitter("view_item_list", "view products", "products", 0);
-  }
+ 
 }
