@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { GoogleAnalyticsService } from '../analytics/google-analytics.service';
 
 import { CarouselComponent } from './carousel/carousel.component';
+
+
 /*
 import '@clr/icons';
 import '@clr/icons/shapes/core-shapes';
