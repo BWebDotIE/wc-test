@@ -42,7 +42,7 @@ export class AppComponent {
     });
   }
 
-  NavMenuProductClick() {
+  ProductClick() {
     this.googleAnalyticsService.eventEmitter("view_item_list", "view products", "products", 0);
   }
 
