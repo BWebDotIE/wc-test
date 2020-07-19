@@ -17,9 +17,4 @@ export class WelcomeComponent  {
 
   constructor(public googleAnalyticsService: GoogleAnalyticsService) { }
 
-  userClicksProductsLinkEvent(){
-    this
-      .googleAnalyticsService
-      .eventEmitter("add_to_cart", "shop", "cart", "click", 10);
-  }
 }
